@@ -1,0 +1,209 @@
+@media only screen and (max-width:1200px) {
+	.row {
+		margin: 0 25px
+	}
+
+	.hero-text-box {
+		width: 90%;
+	}
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+	.mobile-manu span {
+		display: block;
+	}
+
+	.main-nav {
+		display: none;
+	}
+
+	.client-photo {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.client-review {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.contact-section form {
+		width: 100%;
+		margin: 0;
+	}
+
+	.social-link ul li {
+		display: inline-block;
+		margin: 0 .3rem;
+	}
+
+	.social-link ul li a :link i::before {
+		font-size: 1.5rem;
+	}
+
+	html {
+		font-size: 62.5%;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	.span_1_of_4 {
+		width: 49.2%;
+	}
+
+	.span_1_of_4:nth-child(3) {
+		margin-left: 0;
+	}
+
+	.social-link {
+		margin-top: 2rem;
+	}
+
+	html {
+		font-size: 61.5%;
+	}
+
+}
+
+@media only screen and (max-width:768px) {
+
+	.span_1_of_4 :nth-child(3) {
+		margin-left: 0px;
+	}
+
+	.box {
+		padding: 0;
+	}
+
+	.little-description {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	h1 {
+		font-size: 3.5rem;
+	}
+
+	h2 {
+		font-size: 3rem;
+	}
+
+	.footer-section li {
+		margin: 0 1rem;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.span_1_of_4 {
+		width: 100%;
+	}
+
+	.contact-section form {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.footer-section ul li a {
+		margin-top: 2rem;
+	}
+
+	h1 {
+		font-size: 3rem;
+		line-height: 4rem;
+	}
+
+	h2 {
+		font-size: 1.7rem;
+	}
+
+	.portfolio-filter button {
+		padding: 1.5rem 2rem;
+		margin: 2rem;
+	}
+
+	.footer-section li {
+		margin: 0 2rem;
+	}
+
+	.row {
+		margin: 0;
+	}
+
+	.btn-submit {
+		margin-right: 0;
+	}
+
+	.mobile-manu span {
+		margin-right: 1rem;
+	}
+
+	.sticky .logo {
+		margin-left: 1rem;
+	}
+
+	.sticky .mobile-manu span {
+		margin-top: -.5rem;
+	}
+
+	.logo {
+		margin-top: 2.5rem;
+		margin-left: 1rem;
+	}
+
+	.contact-section form {
+		font-size: 1.2rem;
+	}
+
+	.overlay-content a {
+		margin-top: -1rem;
+	}
+
+	.overlay .closebtn {
+		margin-right: -2rem;
+		margin-top: -1rem;
+	}
+
+}
+
+
+@media only screen and (max-width:320px) {
+
+	.btn:link,
+	.btn:visited,
+	.btn {
+		margin-top: 0rem;
+	}
+
+	.teem-member {
+		height: 10rem;
+		width: 10rem;
+	}
+
+	.social-link ul li a:link i::before {
+		height: 1rem;
+		width: 1rem;
+		text-align: center;
+		margin: .5rem;
+		font-size: 1.3rem;
+		line-height: 50%;
+		margin-top: -12.5%;
+	}
+
+	.portfolio-filter button {
+		padding: 1.5rem 2rem;
+		margin: 2rem;
+	}
+
+	.btn:link,
+	.btn:visited,
+	.btn {
+		margin-top: 2rem;
+		padding: .5rem;
+
+	}
+
+}
