@@ -77,4 +77,74 @@ body{
 
 /* section style start  */
 
-  
+.section-padding {
+    padding: 80px inherit;
+    padding: 80px 0;
+  }
+  .bigger-text p {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .bigger-text h1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 30px;
+  }
+  .bigger-text .text-content {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.7;
+    text-transform: none;
+    margin-bottom: 40px;
+  }
+  .boxed-btn {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 8px 6px;
+    background: #000;
+    border-radius: 30px;
+    padding: 14px 14px;
+    margin-top: 0;
+    margin-top: 30px;
+    color: #fff;
+  }
+  .bigger-text {
+    text-align: center;
+    padding: 30px;
+  }
+  .shadow-gallery {
+    position: relative;
+    padding: 30px;
+  }
+  .shadow-gallery img {
+	position: relative;
+	z-index: 1;
+	width: 50%;
+	box-shadow: 0 0 20px #00000085;
+    min-height: 250px;
+}
+.shadow-gallery img:nth-child(1) {
+	top: -15px;
+}
+  .shadow-gallery img:nth-child(2) {
+    position: absolute;
+    right: 122px;
+    top: 39%;
+    z-index: 2;
+  }
+  .shadow-gallery img:nth-child(3) {
+    width: 60%;
+    position: absolute;
+    z-index: 3;
+    left: 50px;
+    top: 79%;
+    border: 0;
+    margin-left: -80px;
+    height: 50%;
+  }
