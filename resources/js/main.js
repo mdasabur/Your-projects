@@ -15,27 +15,25 @@
 //         });
 //     });
 // }(jQuery));
+
    
+// paralex effect js script 
+(function($){
+"use strict";
+jQuery(document).ready(function($){
+    var s = skrollr.init({
+    render:function(data){
+        //Debuggin - log the current scroll position
+        //console.log(data.curTop);
+    }
+  });
+});
 
+jQuery(window).load(function(){
 
+})
 
-  
-  
-
-  
-  
-
-
-
-
-
-    
-
-
-
-
-
-
+}(jQuery));
 
 // $(document).ready(function () {
 // 	//STIKY MANU
