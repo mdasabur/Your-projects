@@ -1,3 +1,26 @@
+// Scroll top js 
+(function($){
+  "use strict";
+  jQuery(document).ready(function($){
+    //Check to see if the window is top if not then desplay
+    $(window).scroll(function(){
+      if($(this).scrollTop() > 100){
+        $('.scrollToTop').fadeIn();
+      }else{
+        $('.scrollToTop').fadeOut();
+      }
+    });
+    // Click event scroll to top 
+    $('.scrollToTop').click(function(){
+      $('html, body').animate({scrollTop: 0}, 800);
+      return false;
+    });
+  });
+  jQuery(window).load(function(){
+
+  });
+})
+
 //  isotope not working with this code 
 // (function($){
 //     "use strict";
@@ -18,22 +41,25 @@
 
    
 // paralex effect js script 
-(function($){
-"use strict";
-jQuery(document).ready(function($){
-    var s = skrollr.init({
-    render:function(data){
-        //Debuggin - log the current scroll position
-        //console.log(data.curTop);
-    }
-  });
-});
+// (function($){
+// "use strict";
+// jQuery(document).ready(function($){
+//     var s = skrollr.init({
+//     render:function(data){
+//         //Debuggin - log the current scroll position
+//         //console.log(data.curTop);
+//     }
+//   });
+// });
 
-jQuery(window).load(function(){
+// jQuery(window).load(function(){
 
-})
+// })
 
-}(jQuery));
+// }(jQuery));
+
+
+
 
 // $(document).ready(function () {
 // 	//STIKY MANU
