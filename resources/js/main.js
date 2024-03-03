@@ -1,25 +1,53 @@
-// Scroll top js 
-(function($){
-  "use strict";
-  jQuery(document).ready(function($){
-    //Check to see if the window is top if not then desplay
-    $(window).scroll(function(){
-      if($(this).scrollTop() > 100){
-        $('.scrollToTop').fadeIn();
-      }else{
-        $('.scrollToTop').fadeOut();
-      }
-    });
-    // Click event scroll to top 
-    $('.scrollToTop').click(function(){
-      $('html, body').animate({scrollTop: 0}, 800);
-      return false;
-    });
-  });
-  jQuery(window).load(function(){
 
-  });
-})
+
+
+
+
+// Owlcarousel slider 
+// (function($){
+//   "use strict";
+ 
+//   jQuery(document).ready(function($){
+//       $('.homepage-slides').owlCarousel({
+//           items:1,
+//           autoplay:true,
+//           loop:true,
+//           margin:10,
+//           nav:true,
+//           dots:true,
+//           smartSpeed:250,
+//           navText:["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        
+//       });
+//   }); 
+
+// }(jQuery));
+
+
+
+
+// Scroll top js 
+// (function($){
+//   "use strict";
+//   jQuery(document).ready(function($){
+//     //Check to see if the window is top if not then desplay
+//     $(window).scroll(function(){
+//       if($(this).scrollTop() > 100){
+//         $('.scrollToTop').fadeIn();
+//       }else{
+//         $('.scrollToTop').fadeOut();
+//       }
+//     });
+//     // Click event scroll to top 
+//     $('.scrollToTop').click(function(){
+//       $('html, body').animate({scrollTop: 0}, 800);
+//       return false;
+//     });
+//   });
+//   jQuery(window).load(function(){
+
+//   });
+// }(jQuery));
 
 //  isotope not working with this code 
 // (function($){
